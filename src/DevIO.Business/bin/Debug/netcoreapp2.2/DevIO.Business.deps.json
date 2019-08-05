@@ -1,0 +1,68 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v2.2",
+    "signature": "97ba89694c944b5173b118c23e1ea60d4643240f"
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v2.2": {
+      "DevIO.Business/1.0.0": {
+        "dependencies": {
+          "EntityFramework6.Npgsql": "3.2.1.1",
+          "FluentValidation": "8.3.0"
+        },
+        "runtime": {
+          "DevIO.Business.dll": {}
+        }
+      },
+      "EntityFramework6.Npgsql/3.2.1.1": {
+        "runtime": {
+          "lib/net45/EntityFramework6.Npgsql.dll": {
+            "assemblyVersion": "3.2.1.1",
+            "fileVersion": "3.2.1.1"
+          }
+        }
+      },
+      "FluentValidation/8.3.0": {
+        "dependencies": {
+          "System.ComponentModel.Annotations": "4.4.1"
+        },
+        "runtime": {
+          "lib/netstandard2.0/FluentValidation.dll": {
+            "assemblyVersion": "8.0.0.0",
+            "fileVersion": "8.3.0.0"
+          }
+        }
+      },
+      "System.ComponentModel.Annotations/4.4.1": {}
+    }
+  },
+  "libraries": {
+    "DevIO.Business/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "EntityFramework6.Npgsql/3.2.1.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-/3AUSO3aOB9TjwXm/wN6p3Zg5D0k6TdxNDqaTiff14/rATZFyOwVG9pIMI0j48FFnleYNYrRTW8XZuZh1/FyzA==",
+      "path": "entityframework6.npgsql/3.2.1.1",
+      "hashPath": "entityframework6.npgsql.3.2.1.1.nupkg.sha512"
+    },
+    "FluentValidation/8.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-tQULydqVfFi68qjEw4Y+P3wM1Xp7kppLpUqPVKI6u8NDwlPVTm6V96qnLWCTO4khn7WtQ1p3ysnrNTl98fdJpA==",
+      "path": "fluentvalidation/8.3.0",
+      "hashPath": "fluentvalidation.8.3.0.nupkg.sha512"
+    },
+    "System.ComponentModel.Annotations/4.4.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ToiYqSCioqhtspq2O/jYKtyTC/T0uwWHBTYlzCi6PRbSSHArN1IaRWeHffDamvms5sye5FDUWCfNZgubQpNRsA==",
+      "path": "system.componentmodel.annotations/4.4.1",
+      "hashPath": "system.componentmodel.annotations.4.4.1.nupkg.sha512"
+    }
+  }
+}
