@@ -52,7 +52,7 @@ export abstract class BaseService {
             errMsg = `${error.status} - ${error.statusText || ''}`;
         }
         else {
-            errMsg = error.message ? error.message : error.toString();
+            errMsg = error.message ? error : error.toString();
         }
 
         console.error(errMsg);
