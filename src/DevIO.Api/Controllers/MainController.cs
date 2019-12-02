@@ -13,6 +13,7 @@ using Microsoft.AspNetCore.Mvc.ModelBinding;
 namespace DevIO.Api.Controllers
 {
     [Route("api/[controller]")]
+    [ApiController]
     public abstract class MainController : ControllerBase
     {
 
